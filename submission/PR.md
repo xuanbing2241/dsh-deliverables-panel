@@ -31,10 +31,18 @@ Session's deliverables and filters out the working files.
 
 ## 提交前自检
 
-- [ ] GitHub 仓库已创建并 push（public），README/LICENSE/icon 齐全
-- [ ] 仓库打好 `dsh-plugin` topic
-- [ ] 仓库创建满 24 小时（CI 自动校验；不满则次日重提，不影响后续）
-- [ ] fork 目标仓库 → 加 `data/plugins/xuanbing2241__dsh-deliverables-panel.yml` →
-      开 PR（只改这一个文件，不要动两个 README，它们是生成物）
+- [x] GitHub 仓库已创建并发布（public）：https://github.com/xuanbing2241/dsh-deliverables-panel
+- [x] README / LICENSE / icon / assets 齐全，`dsh-plugin` topic 已打
+- [ ] 仓库创建满 24 小时（2026-11-25T12:08Z 创建 → 2026-11-26T12:08Z 之后才能过 CI）
+- [ ] 跑 `pwsh -File submission/open-pr.ps1 -Token <github-pat>`（fork → 建分支 → 提交条目 → 开 PR，全程走 api.github.com）
 - [ ] 合并后到 [awesome-dsh-plugin.com](https://awesome-dsh-plugin.com) 搜一次，
       市场（dsh-market / DSH 原生 Discover）会随下次刷新自动收录
+
+## 本机网络的一个坑（2026-11-25 实测）
+
+这台机器 **`github.com:443` 被拦**（Connection reset / 端口超时），但 `api.github.com`、
+`raw.githubusercontent.com`、`registry.npmjs.org` 都通。所以：
+
+- `git push` / `gh` 用不了 → 仓库内容是用 **GitHub Git Data API**（contents 初始化 → blobs → tree → commit → ref）推上去的；
+- 因此**本地 `.git` 的提交 SHA 与远端不同**（文件内容一致）。网络恢复后建议重新 `git clone` 一份工作副本，别在原地 `git push`；
+- 同理 `dsh plugin add github:xuanbing2241/dsh-deliverables-panel` 在本机装不了（pnpm 要连 github.com），本机请走 npm 或本地目录安装。
