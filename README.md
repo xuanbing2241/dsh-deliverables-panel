@@ -14,6 +14,9 @@ dsh plugin --profile <profile> add dsh-deliverables-panel
 桌面端也可以走 **设置 → 插件 → 添加插件**，填包名或者指向本机目录。
 装完刷新一次页面（浏览器端模块在页面加载时装配）。
 
+- npm：[dsh-deliverables-panel](https://www.npmjs.com/package/dsh-deliverables-panel)（当前 `1.0.0`）
+- GitHub：[xuanbing2241/dsh-deliverables-panel](https://github.com/xuanbing2241/dsh-deliverables-panel)
+
 **环境**：在 DSH `0.2.2-rc.5`（Desktop，Windows 11）上实测。包内没有声明 `engines.dsh`，所以市场的兼容列会显示 unknown，而不是一个我没验证过的版本范围。
 
 ## 入口在哪
