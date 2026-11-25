@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="A session conversation beside a right-sidebar panel listing delivered files above a line counting the files it filtered out">
+  <!-- Left column: the conversation that produced the files -->
+  <rect x="24" y="40" width="352" height="220" rx="12" fill="none" stroke="#9AA3AF" stroke-opacity="0.5" stroke-width="1.5"/>
+  <rect x="48" y="64" width="272" height="8" rx="4" fill="#9AA3AF" fill-opacity="0.28"/>
+  <rect x="48" y="82" width="216" height="8" rx="4" fill="#9AA3AF" fill-opacity="0.28"/>
+  <rect x="48" y="112" width="304" height="46" rx="8" fill="none" stroke="#9AA3AF" stroke-opacity="0.4" stroke-width="1.5"/>
+  <rect x="64" y="126" width="120" height="7" rx="3.5" fill="#9AA3AF" fill-opacity="0.4"/>
+  <rect x="64" y="140" width="180" height="7" rx="3.5" fill="#9AA3AF" fill-opacity="0.22"/>
+  <rect x="48" y="180" width="256" height="8" rx="4" fill="#9AA3AF" fill-opacity="0.28"/>
+  <rect x="48" y="198" width="184" height="8" rx="4" fill="#9AA3AF" fill-opacity="0.22"/>
+  <rect x="48" y="222" width="88" height="18" rx="9" fill="#4C8DFF" fill-opacity="0.16" stroke="#4C8DFF" stroke-opacity="0.55" stroke-width="1.5"/>
+  <rect x="62" y="229" width="60" height="5" rx="2.5" fill="#4C8DFF" fill-opacity="0.75"/>
+
+  <!-- Right column: the deliverables panel -->
+  <rect x="396" y="32" width="220" height="236" rx="12" fill="#9AA3AF" fill-opacity="0.08" stroke="#9AA3AF" stroke-opacity="0.4" stroke-width="1.5"/>
+  <rect x="412" y="46" width="66" height="9" rx="4.5" fill="#9AA3AF" fill-opacity="0.5"/>
+  <rect x="486" y="42" width="26" height="16" rx="8" fill="#4C8DFF" fill-opacity="0.85"/>
+  <circle cx="596" cy="50" r="7" fill="none" stroke="#9AA3AF" stroke-opacity="0.65" stroke-width="1.5"/>
+
+  <!-- Row 1, hovered: raised ground and the copy control it reveals -->
+  <rect x="406" y="73" width="200" height="38" rx="8" fill="#9AA3AF" fill-opacity="0.16"/>
+  <rect x="420" y="77" width="30" height="30" rx="8" fill="#9AA3AF" fill-opacity="0.12" stroke="#9AA3AF" stroke-opacity="0.55" stroke-width="1.5"/>
+  <rect x="462" y="81" width="110" height="9" rx="4.5" fill="#9AA3AF" fill-opacity="0.55"/>
+  <rect x="462" y="95" width="74" height="7" rx="3.5" fill="#9AA3AF" fill-opacity="0.28"/>
+  <rect x="576" y="86" width="12" height="12" rx="3" fill="none" stroke="#9AA3AF" stroke-opacity="0.7" stroke-width="1.5"/>
+
+  <!-- Row 2 -->
+  <rect x="420" y="119" width="30" height="30" rx="8" fill="none" stroke="#9AA3AF" stroke-opacity="0.4" stroke-width="1.5"/>
+  <rect x="462" y="123" width="96" height="9" rx="4.5" fill="#9AA3AF" fill-opacity="0.42"/>
+  <rect x="462" y="137" width="120" height="7" rx="3.5" fill="#9AA3AF" fill-opacity="0.22"/>
+
+  <!-- Row 3 -->
+  <rect x="420" y="161" width="30" height="30" rx="8" fill="none" stroke="#9AA3AF" stroke-opacity="0.4" stroke-width="1.5"/>
+  <rect x="462" y="165" width="128" height="9" rx="4.5" fill="#9AA3AF" fill-opacity="0.42"/>
+  <rect x="462" y="179" width="64" height="7" rx="3.5" fill="#9AA3AF" fill-opacity="0.22"/>
+
+  <!-- Row 4 -->
+  <rect x="420" y="203" width="30" height="30" rx="8" fill="none" stroke="#9AA3AF" stroke-opacity="0.4" stroke-width="1.5"/>
+  <rect x="462" y="207" width="104" height="9" rx="4.5" fill="#9AA3AF" fill-opacity="0.42"/>
+  <rect x="462" y="221" width="92" height="7" rx="3.5" fill="#9AA3AF" fill-opacity="0.22"/>
+
+  <!-- Footer: the files the panel filtered out -->
+  <path d="M412 244h188" stroke="#9AA3AF" stroke-opacity="0.3" stroke-width="1.5"/>
+  <rect x="412" y="252" width="98" height="6" rx="3" fill="#9AA3AF" fill-opacity="0.24"/>
+</svg>

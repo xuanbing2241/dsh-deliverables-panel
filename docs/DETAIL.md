@@ -1,0 +1,1 @@
+![Session deliverables listed in the right sidebar](preview.svg)

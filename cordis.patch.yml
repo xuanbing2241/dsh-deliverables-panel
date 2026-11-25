@@ -1,0 +1,6 @@
+# The bundle's single plugin row. One row owns both halves: the Host half below
+# serves the listing route, and the browser half is discovered through the
+# package.json `dsh.client` declaration.
+- insert:
+    - id: deliverables-panel
+      name: 'dsh-deliverables-panel'

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Deliverables panel",
+    "description": "Lists one Session's final deliverables in the right Sidebar. Open the Sidebar's start page and pick Deliverables (交付物), or add it from the tab strip's add control. It shows the files the model declared with present plus the documents, sheets, slides, reports, images, archives and SQL scripts it wrote itself; process files, temporary files, lock and log files, and executable scripts are never listed. Click a row to open that file in the Sidebar, or copy its full path. Turning the bundle off removes the entry and the page.",
+    "detail": "docs/DETAIL.md"
+  }
+}

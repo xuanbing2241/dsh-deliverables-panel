@@ -1,0 +1,54 @@
+{
+  "name": "dsh-deliverables-panel",
+  "version": "1.0.0",
+  "description": "Right-Sidebar Deliverables panel for DeepSeek Harness: lists one Session's final deliverables (present declarations plus produced documents, sheets, images and archives) and hides process, temporary and tooling script files.",
+  "type": "module",
+  "license": "MIT",
+  "author": "xuanbing2241",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuanbing2241/dsh-deliverables-panel.git"
+  },
+  "homepage": "https://github.com/xuanbing2241/dsh-deliverables-panel#readme",
+  "bugs": {
+    "url": "https://github.com/xuanbing2241/dsh-deliverables-panel/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "harness",
+    "deliverables",
+    "sidebar",
+    "web-ui"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "assets",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
