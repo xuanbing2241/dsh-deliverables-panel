@@ -33,6 +33,8 @@ Session's deliverables and filters out the working files.
 
 - [x] GitHub 仓库已创建并发布（public）：https://github.com/xuanbing2241/dsh-deliverables-panel
 - [x] README / LICENSE / icon / assets 齐全，`dsh-plugin` topic 已打
+- [x] npm 已发布：`dsh-deliverables-panel@1.0.0`（tarball sha1 `53d104d1ff597daa838db37c8331c39f5a5f11fc`，
+      13 个文件，`npm install` 实测可装）
 - [ ] 仓库创建满 24 小时（2026-11-25T12:08Z 创建 → 2026-11-26T12:08Z 之后才能过 CI）
 - [ ] 跑 `pwsh -File submission/open-pr.ps1 -Token <github-pat>`（fork → 建分支 → 提交条目 → 开 PR，全程走 api.github.com）
 - [ ] 合并后到 [awesome-dsh-plugin.com](https://awesome-dsh-plugin.com) 搜一次，
